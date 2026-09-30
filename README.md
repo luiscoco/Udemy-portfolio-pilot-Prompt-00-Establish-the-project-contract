@@ -5,14 +5,7 @@ news analysis, research recommendations, watchlists, and alerts. Its AI features
 **Claude Agent SDK**. During this course you build the application step by step, pasting one prompt
 at a time into a coding assistant in VS Code.
 
-This README covers the **first learning activity, Prompt 00**.
-
-> **Current status:** Prompt 00 is complete. The repository contains documentation only: the
-> project contract, plan, progress tracker, and decision records. **There is no application code
-> yet**, so there is nothing to install or run. Milestone 36 will replace this README with the full
-> application guide.
-
----
+This README covers the **first learning activity, Prompt 00**:
 
 ```
 You are my implementation partner for PortfolioPilot, a professional Udemy teaching project. Work in this VS Code workspace.
@@ -89,6 +82,12 @@ In each completion report include: what works, changed files, actual check resul
 
 Start now with the contract and plan only.
 ```
+> **Current status:** Prompt 00 is complete. The repository contains documentation only: the
+> project contract, plan, progress tracker, and decision records. **There is no application code
+> yet**, so there is nothing to install or run. Milestone 36 will replace this README with the full
+> application guide.
+
+---
 
 ## 1. Purpose
 
