@@ -14,6 +14,7 @@ work stays consistent across sessions and across assistants (Claude, GPT, or oth
 | `docs/project-plan.md` | 36 milestones with scope and acceptance criteria. |
 | `docs/project-state.md` | What is actually done and verified, plus the next step. |
 | `docs/decisions/` | Architecture decision records, starting with the baseline (ADR 0001). |
+| `README.md` | Student-facing walkthrough: why this prompt exists, the steps taken, and the results. |
 
 ## Key ideas to teach
 

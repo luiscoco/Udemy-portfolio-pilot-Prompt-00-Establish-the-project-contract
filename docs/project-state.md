@@ -56,7 +56,7 @@ Single source of truth for progress. Update at the end of every milestone with *
 | OS | Windows 11 Home (10.0.26200) | PowerShell and Git Bash available |
 | Node.js | v24.21.0 | LTS suitability to be confirmed in milestone 01 |
 | npm | 11.19.0 | |
-| git | 2.52.0.windows.1 | Workspace is **not** a git repository yet |
+| git | 2.52.0.windows.1 | Repository on `main`, remote `origin` on GitHub |
 | Docker | Not checked | Checked in milestone 01 |
 
 ## Latest milestone report — 00
@@ -69,6 +69,8 @@ ADR index exist. No application code has been generated.
 - `docs/project-plan.md`, `docs/project-state.md`
 - `docs/decisions/README.md`, `docs/decisions/0001-architecture-baseline.md`
 - `docs/lessons/00-project-contract.md`
+- `README.md` (added after the milestone at the user's request; a student-facing explanation of
+  Prompt 00. Milestone 36 replaces it with the full application README.)
 
 **Check results:** Documentation-only milestone; no build, lint, or test tooling exists yet.
 Verified that the workspace was empty beforehand, so no existing instruction files were overwritten.
@@ -77,12 +79,11 @@ Verified that the workspace was empty beforehand, so no existing instruction fil
 session and confirm it reads `CLAUDE.md` → `AGENTS.md` → `docs/project-state.md`.
 
 **Remaining limitations:**
-- The folder is not a git repository. Initializing git and committing need your authorization
-  (`git init` then an initial commit).
+- ~~The folder is not a git repository.~~ Resolved: the user initialized the repository and added
+  the GitHub remote; the Milestone 00 docs and README were committed and pushed to `main` on request.
 - No versions are pinned yet; that is milestone 01.
 
 ## Open decisions and blockers
 
-- Git initialization and first commit: awaiting authorization.
 - Authentication library, live quote/news provider, and gateway controller are decided in their
   milestones (07, 12, 35) and recorded as ADRs.
