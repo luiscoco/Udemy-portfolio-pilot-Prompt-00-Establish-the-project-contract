@@ -1,4 +1,4 @@
-# PortfolioPilot — Prompt 00: Establish the Project Contract
+# Prompt 00: Establish the Project Contract
 
 PortfolioPilot is a stock portfolio manager with a live news feed, portfolio-aware AI chat, cited
 news analysis, research recommendations, watchlists, and alerts. Its AI features run on the
